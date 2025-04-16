@@ -1,0 +1,13 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: flight-search
+
+
+amadeus:
+  api:
+    key: sIj65GRyjsjIb5rZS93r8osZunt3GZ8L
+    secret: e1psrgVibhVJvGqE
+    access:
+      token: kB3CzKuAgzKlRZbD7wy8tMHmxrKQ

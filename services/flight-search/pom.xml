@@ -6,17 +6,19 @@
 		<groupId>ru.asteises</groupId>
 		<artifactId>zephyx</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../../pom.xml</relativePath>
 	</parent>
 
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>flight-search</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>flight-search</name>
-	<description>flight-search</description>
+	<name>Zephyx Flight Search</name>
 
 	<properties>
 		<java.version>21</java.version>
+		<zephyx-commons.version>0.0.1-SNAPSHOT</zephyx-commons.version>
+		<airport-data.version>0.0.1-SNAPSHOT</airport-data.version>
 	</properties>
 
 	<dependencies>
@@ -27,6 +29,17 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-redis</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>ru.asteises</groupId>
+			<artifactId>zephyx-commons</artifactId>
+			<version>${zephyx-commons.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>ru.asteises</groupId>
+			<artifactId>airport-data</artifactId>
+			<version>${airport-data.version}</version>
 		</dependency>
 	</dependencies>
 

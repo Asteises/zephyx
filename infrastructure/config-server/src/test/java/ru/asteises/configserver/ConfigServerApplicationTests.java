@@ -1,10 +1,10 @@
-package ru.asteises.flightsearch;
+package ru.asteises.configserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FlightSearchApplicationTests {
+class ConfigServerApplicationTests {
 
 	@Test
 	void contextLoads() {
