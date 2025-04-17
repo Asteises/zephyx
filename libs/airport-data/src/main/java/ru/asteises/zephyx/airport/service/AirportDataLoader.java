@@ -6,6 +6,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import ru.asteises.zephyx.airport.model.AirportEntity;
+import ru.asteises.zephyx.airport.repo.AirportRepository;
 
 import java.util.List;
 

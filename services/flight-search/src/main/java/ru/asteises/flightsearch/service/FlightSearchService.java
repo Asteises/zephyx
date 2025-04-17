@@ -2,7 +2,7 @@ package ru.asteises.flightsearch.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import ru.asteises.zephyx.airport.service.AirportRepository;
+import ru.asteises.zephyx.airport.repo.AirportRepository;
 
 @Service
 @RequiredArgsConstructor

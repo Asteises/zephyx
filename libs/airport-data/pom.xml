@@ -12,6 +12,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>airport-data</artifactId>
+    <packaging>jar</packaging>
 
     <name>Zephyx Airport Data</name>
 
@@ -24,7 +25,7 @@
     </properties>
 
     <dependencies>
-        <!-- Spring Data -->
+        <!-- Spring -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jdbc</artifactId>
@@ -55,11 +56,22 @@
             <version>${logback.version}</version>
         </dependency>
 
+        <!-- Zephyx -->
         <dependency>
             <groupId>ru.asteises</groupId>
             <artifactId>zephyx-commons</artifactId>
             <version>${zephyx-commons.version}</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.swagger.core.v3</groupId>
+            <artifactId>swagger-models-jakarta</artifactId>
+            <version>2.2.29</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.lettuce</groupId>
+            <artifactId>lettuce-core</artifactId>
         </dependency>
     </dependencies>
 
