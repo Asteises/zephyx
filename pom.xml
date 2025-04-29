@@ -28,6 +28,7 @@
 
     <modules>
         <module>libs/zephyx-commons</module>
+        <module>infrastructure/zephyx-gateway</module>
         <module>services/flight-search</module>
 <!--        <module>infrastructure/config-server</module>-->
         <module>libs/airport-data</module>
